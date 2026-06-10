@@ -2,12 +2,9 @@ services:
   wg-easy:
     container_name: wg-easy
     environment:
-<<<<<<< HEAD
+
       - WG_HOST=YOUR_DOMAIN_OR_IP
-=======
-      - WG_HOST=YOUR_DOMAIN_OR_IP
->>>>>>> 4a2fb79 (Oopsie I doxed my own ip)
-      
+
       # This is the exact pre-generated hash for the word: password
       - PASSWORD_HASH=$$2a$$14$$VIJZ6SsZKJBkEy2VR7WPdesQPQGm0j6.jg1vQzbzo1FglcNF7l8X.
       
